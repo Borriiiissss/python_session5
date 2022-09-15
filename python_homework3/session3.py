@@ -46,14 +46,14 @@
 # Пример:
 # - [1.1, 1.2, 3.1, 10.01] => 0.19
 
-# list = [1.1, 1.2, 3.1, 10.01]
-# min = list[0] % 1
-# max = list[0] % 1
-# for i in list:
-#     item = i % 1    
-#     if item < min: min = item
-#     if item > max: max = item
-# print ('{} min = {} max = {} => {}'.format(list, round(min,2), round(max,2), round(max - min, 2)))
+list = [1.1, 1.2, 3.1, 10.01]
+min = list[0] % 1
+max = list[0] % 1
+for i in list:
+    item = i % 1    
+    if item < min: min = item
+    if item > max: max = item
+print ('{} min = {} max = {} => {}'.format(list, round(min,2), round(max,2), round(max - min, 2)))
 
 
 
@@ -68,7 +68,7 @@
 # list=[]
 # while x>0:
 #     list.append(x % 2)
-#     x = int (x /2)
+#     x = int (x / 2)
 # print (f'{num} ->', end = ' ')
 # for i in list[::-1]:
 #     print (i, end = '')
